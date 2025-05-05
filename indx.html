@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link href="/lode/owl.css" rel="stylesheet" type="text/css" /><link href="/lode/Primer.css" rel="stylesheet" type="text/css" /><link href="/lode/rec.css" rel="stylesheet" type="text/css" /><link href="/lode/extra.css" rel="stylesheet" type="text/css" /><link rel="shortcut icon" href="/lode/favicon.ico" /><script src="/lode/jquery.js"></script><script src="/lode/jquery.scrollTo.js"></script><script src="/lode/marked.min.js"></script><script>
-			$(document).ready(
-			function () {
-			jQuery(".markdown").each(function(el){
-			jQuery(this).after(marked(jQuery(this).text())).remove()});
-			var list =
-			$('a[name="
-			https://raw.githubusercontent.com/fatimaSher/OntologyWork/refs/heads/main/ontologyProject.rdf
-			"]');
-			if (list.size() != 0) {
+	$(document).ready(function () {
+		jQuery(".markdown").each(function(el){
+			jQuery(this).after(marked(jQuery(this).text())).remove();
+		});
+
+		var list = $('a[name="https://raw.githubusercontent.com/fatimaSher/OntologyWork/refs/heads/main/ontologyProject.rdf"]');
+		if (list.size() != 0) {
 			var element = list.first();
 			$.scrollTo(element);
-			}
-			});
-		</script></head><body><div class="head"><dl><dt>IRI:</dt><dd>http://www.semanticweb.org/dell/ontologies/2025/4/untitled-ontology-12</dd></dl><dl><dt>Other visualisation
+		}
+	});
+</script>
+</head><body><div class="head"><dl><dt>IRI:</dt><dd>http://www.semanticweb.org/dell/ontologies/2025/4/untitled-ontology-12</dd></dl><dl><dt>Other visualisation
 						:
 					</dt><dd><a href="/lode/source?url=https://raw.githubusercontent.com/fatimaSher/OntologyWork/refs/heads/main/ontologyProject.rdf">Ontology source</a>
 						-
